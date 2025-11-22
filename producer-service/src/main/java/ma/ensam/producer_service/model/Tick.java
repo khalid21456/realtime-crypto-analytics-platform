@@ -13,6 +13,7 @@ public class Tick {
     private String size;
     private String bid;
     private String ask;
+    private String rfq_volume;
     private String volume;
     private String time;      // ISO string
 
@@ -30,6 +31,7 @@ public class Tick {
                 ", ask='" + ask + '\'' +
                 ", volume='" + volume + '\'' +
                 ", time='" + time + '\'' +
+                ", rfq_volume='" + rfq_volume + '\'' +
                 '}';
     }
 }
