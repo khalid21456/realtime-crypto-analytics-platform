@@ -1,0 +1,12 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: producer-service
+  kafka:
+    bootstrap-servers: localhost:9092
+
+crypto:
+  topic: crypto-ticks
+  pairs: ETH-EUR,BTC-EUR,SOL-EUR,XRP-EUR,ADA-EUR,BNB-EUR,DOGE-EUR,DOT-EUR,LTC-EUR,MATIC-EUR
